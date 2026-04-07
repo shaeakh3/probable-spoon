@@ -5,6 +5,6 @@ import { CounterController } from './counter.controller';
 @Module({
   controllers: [CounterController],
   providers: [CounterService],
-  exports: [CounterService   ],
+  exports: [CounterService],
 })
 export class CounterModule {}
